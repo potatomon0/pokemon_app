@@ -13,7 +13,6 @@ function Index(props) {
           let caps = index.name.slice(0,1)
           let nameBody = index.name.slice(1,index.name.length)
           let pkmName=caps.toUpperCase()+nameBody
-          console.log(pkmName)
           return(
             <li key={i}>{pkmName}</li>
           )
