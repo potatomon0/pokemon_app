@@ -14,7 +14,7 @@ function Index(props) {
           let nameBody = index.name.slice(1,index.name.length)
           let pkmName=caps.toUpperCase()+nameBody
           return(
-            <li key={i}>{pkmName}</li>
+            <li key={i}><a href={`/pokemon/${i}`}>{pkmName}</a></li>
           )
         })}
         </ul>
