@@ -1,0 +1,23 @@
+.indexMain{
+    border:5px solid #006358;
+    background-color:#40b088;
+    height:580px;
+    width:350px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showMain{
+    background-color: #fff2cc;
+}
+.pkmImg{
+    height:20px;
+}
+h1{
+    color:#006358;
+}
+a{
+    color:#564b8c;
+    font-weight:bold;
+    font-size:20px;
+}
